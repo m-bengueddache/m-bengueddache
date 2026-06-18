@@ -42,35 +42,36 @@
 
 | Repo | Description |
 |---|---|
-| [aws-jenkins-cicd](https://github.com/MB-938/aws-jenkins-cicd) | Full Jenkins pipeline: version increment, Maven build, Docker push, SSH deploy to EC2 |
-| [jenkins-cicd-pipeline](https://github.com/MB-938/jenkins-cicd-pipeline) | Declarative Jenkins pipeline with semantic versioning — evolves to use a shared library |
-| [jenkins-groovy-shared-library](https://github.com/MB-938/jenkins-groovy-shared-library) | Reusable Groovy shared library: Docker build/login/push steps with `src/` class encapsulation |
+| [aws-jenkins-cicd](https://github.com/m-bengueddache/aws-jenkins-cicd) | Full Jenkins pipeline: version increment, Maven build, Docker push, SSH deploy to EC2 |
+| [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) | Declarative Jenkins pipeline with semantic versioning — evolves to use a shared library |
+| [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) | Reusable Groovy shared library: Docker build/login/push steps with `src/` class encapsulation |
 
 ### Cloud & Infrastructure (AWS)
 
 | Repo | Description |
 |---|---|
-| [aws-ec2-docker-deployment](https://github.com/MB-938/aws-ec2-docker-deployment) | Multi-stage Docker build of a React/Node.js app deployed manually on AWS EC2 |
-| [aws-cli-automation](https://github.com/MB-938/aws-cli-automation) | EC2 provisioning and IAM management (users, groups, policies) entirely via AWS CLI |
+| [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) | Multi-stage Docker build of a React/Node.js app deployed manually on AWS EC2 |
+| [aws-cli-automation](https://github.com/m-bengueddache/aws-cli-automation) | EC2 provisioning and IAM management (users, groups, policies) entirely via AWS CLI |
 
 ### Containerisation
 
 | Repo | Description |
 |---|---|
-| [docker-node-mongodb](https://github.com/MB-938/docker-node-mongodb) | Node.js app + MongoDB + Mongo Express orchestrated with Docker Compose and named volumes |
+| [docker-node-mongodb](https://github.com/m-bengueddache/docker-node-mongodb) | Node.js app + MongoDB + Mongo Express orchestrated with Docker Compose and named volumes |
 
 ### Kubernetes
 
 | Repo | Description |
 |---|---|
-| [kubernetes-cluster-setup](https://github.com/MB-938/kubernetes-cluster-setup) | MongoDB (ConfigMap/Secret) and Mosquitto MQTT broker with config files mounted as volumes |
+| [kubernetes-cluster-setup](https://github.com/m-bengueddache/kubernetes-cluster-setup) | MongoDB (ConfigMap/Secret) and Mosquitto MQTT broker with config files mounted as volumes |
+| [k8s-lambda-fullstack-elk](https://github.com/m-bengueddache/k8s-lambda-fullstack-elk) | AWS Lambda (Python), Spring Boot + Angular deployed on Kubernetes, Jenkins CI/CD pipeline, and ELK stack with Filebeat DaemonSet for log centralisation |
 
 ### Artifact Management (Nexus)
 
 | Repo | Description |
 |---|---|
-| [nexus-gradle-artifact-repo](https://github.com/MB-938/nexus-gradle-artifact-repo) | Spring Boot JAR published to a private Sonatype Nexus repo via Gradle `maven-publish` |
-| [nexus-maven-artifact-repo](https://github.com/MB-938/nexus-maven-artifact-repo) | Spring Boot JAR published to a private Sonatype Nexus repo via Maven `deploy` |
+| [nexus-gradle-artifact-repo](https://github.com/m-bengueddache/nexus-gradle-artifact-repo) | Spring Boot JAR published to a private Sonatype Nexus repo via Gradle `maven-publish` |
+| [nexus-maven-artifact-repo](https://github.com/m-bengueddache/nexus-maven-artifact-repo) | Spring Boot JAR published to a private Sonatype Nexus repo via Maven `deploy` |
 
 ---
 
