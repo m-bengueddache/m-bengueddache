@@ -18,7 +18,8 @@
 
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20Lambda%20%7C%20CLI-orange?logo=amazonaws)
 ![Docker](https://img.shields.io/badge/Docker-Compose%20%7C%20Hub-2496ED?logo=docker)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Minikube-326CE5?logo=kubernetes)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Minikube%20%7C%20LKE-326CE5?logo=kubernetes)
+![Helm](https://img.shields.io/badge/Helm-3-0F1689?logo=helm)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD%20%7C%20Shared%20Lib-D24939?logo=jenkins)
 ![Nexus](https://img.shields.io/badge/Sonatype-Nexus-1B1C30)
 
@@ -64,6 +65,7 @@
 | Repo | Description |
 |---|---|
 | [kubernetes-cluster-setup](https://github.com/m-bengueddache/kubernetes-cluster-setup) | MongoDB (ConfigMap/Secret) and Mosquitto MQTT broker with config files mounted as volumes |
+| [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) | MongoDB ReplicaSet on Linode Kubernetes Engine (LKE) with Helm, persistent block storage, Mongo Express UI, and Nginx Ingress Controller |
 | [k8s-lambda-fullstack-elk](https://github.com/m-bengueddache/k8s-lambda-fullstack-elk) | AWS Lambda (Python), Spring Boot + Angular deployed on Kubernetes, Jenkins CI/CD pipeline, and ELK stack with Filebeat DaemonSet for log centralisation |
 
 ### Artifact Management (Nexus)
