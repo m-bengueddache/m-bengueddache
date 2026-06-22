@@ -67,6 +67,7 @@
 | [kubernetes-cluster-setup](https://github.com/m-bengueddache/kubernetes-cluster-setup) | MongoDB (ConfigMap/Secret) and Mosquitto MQTT broker with config files mounted as volumes |
 | [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) | Node.js app deployed on Kubernetes (Minikube) from a private AWS ECR registry — Docker auth, imagePullSecrets, and namespace-scoped Secrets |
 | [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) | MongoDB ReplicaSet on Linode Kubernetes Engine (LKE) with Helm, persistent block storage, Mongo Express UI, and Nginx Ingress Controller |
+| [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Online Boutique: 11 microservices on LKE — raw manifests, production best practices (probes, resource limits), shared Helm chart, and Helmfile deployment |
 | [k8s-lambda-fullstack-elk](https://github.com/m-bengueddache/k8s-lambda-fullstack-elk) | AWS Lambda (Python), Spring Boot + Angular deployed on Kubernetes, Jenkins CI/CD pipeline, and ELK stack with Filebeat DaemonSet for log centralisation |
 
 ### Artifact Management (Nexus)
