@@ -46,15 +46,15 @@
 | [aws-jenkins-cicd](https://github.com/m-bengueddache/aws-jenkins-cicd) | Full Jenkins pipeline: version increment, Maven build, Docker push, SSH deploy to EC2 |
 | [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) | Declarative Jenkins pipeline with semantic versioning — evolves to use a shared library |
 | [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) | Reusable Groovy shared library: Docker build/login/push steps with `src/` class encapsulation |
-| [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Jenkins pipeline deploying to Amazon EKS — Dockerhub then AWS ECR registry, envsubst Kubernetes manifests, imagePullSecrets |
+| [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Full CI/CD pipeline to Amazon EKS — version increment, Maven build, Dockerhub then ECR registry migration, dynamic Kubernetes manifests with imagePullSecrets |
 
 ### Cloud & Infrastructure (AWS)
 
 | Repo | Description |
 |---|---|
-| [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) | Multi-stage Docker build of a React/Node.js app deployed manually on AWS EC2 |
+| [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) | Multi-stage Docker build of a React/Node.js app deployed on AWS EC2 via SSH and Docker Compose |
 | [aws-cli-automation](https://github.com/m-bengueddache/aws-cli-automation) | EC2 provisioning and IAM management (users, groups, policies) entirely via AWS CLI |
-| [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | EKS cluster on AWS — console setup, Cluster Autoscaler (OIDC/IRSA), Fargate profiles, and eksctl one-command provisioning |
+| [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | EKS cluster on AWS — VPC/IAM setup, managed node groups, Cluster Autoscaler (OIDC/IRSA), Fargate profiles, and eksctl provisioning |
 
 ### Containerisation
 
