@@ -46,6 +46,7 @@
 | [aws-jenkins-cicd](https://github.com/m-bengueddache/aws-jenkins-cicd) | Full Jenkins pipeline: version increment, Maven build, Docker push, SSH deploy to EC2 |
 | [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) | Declarative Jenkins pipeline with semantic versioning — evolves to use a shared library |
 | [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) | Reusable Groovy shared library: Docker build/login/push steps with `src/` class encapsulation |
+| [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Jenkins pipeline deploying to Amazon EKS — Dockerhub then AWS ECR registry, envsubst Kubernetes manifests, imagePullSecrets |
 
 ### Cloud & Infrastructure (AWS)
 
