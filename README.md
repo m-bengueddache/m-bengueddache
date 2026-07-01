@@ -54,7 +54,7 @@
 |---|---|
 | [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) | Multi-stage Docker build of a React/Node.js app deployed on AWS EC2 via SSH and Docker Compose |
 | [aws-cli-automation](https://github.com/m-bengueddache/aws-cli-automation) | EC2 provisioning and IAM management (users, groups, policies) entirely via AWS CLI |
-| [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | EKS cluster on AWS — VPC/IAM setup, managed node groups, Cluster Autoscaler (OIDC/IRSA), Fargate profiles, and eksctl provisioning |
+| [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | EKS cluster provisioning from scratch — VPC/IAM from the AWS console, Cluster Autoscaler internals (OIDC/IRSA), Fargate profile fundamentals, and the eksctl one-command alternative |
 
 ### Containerisation
 
