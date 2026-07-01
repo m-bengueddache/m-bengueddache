@@ -71,6 +71,7 @@
 | [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) | MongoDB ReplicaSet on Linode Kubernetes Engine (LKE) with Helm, persistent block storage, Mongo Express UI, and Nginx Ingress Controller |
 | [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Online Boutique: 11 microservices on LKE — raw manifests, production best practices (probes, resource limits), shared Helm chart, and Helmfile deployment |
 | [kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) | Spring Boot + MySQL replication on LKE — raw manifests, Bitnami Helm, Helm chart written from scratch, and Helmfile multi-release deployment |
+| [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Spring Boot + MySQL replication on EKS — hybrid compute (Fargate for the app, managed nodegroup for stateful services), EBS CSI persistent storage, Cluster Autoscaler via IRSA, Jenkins CI/CD to ECR |
 | [k8s-lambda-fullstack-elk](https://github.com/m-bengueddache/k8s-lambda-fullstack-elk) | AWS Lambda (Python), Spring Boot + Angular deployed on Kubernetes, Jenkins CI/CD pipeline, and ELK stack with Filebeat DaemonSet for log centralisation |
 
 ### Artifact Management (Nexus)
