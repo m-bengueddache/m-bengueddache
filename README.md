@@ -24,25 +24,6 @@
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD%20%7C%20Shared%20Lib-D24939?logo=jenkins)
 ![Nexus](https://img.shields.io/badge/Sonatype-Nexus-1B1C30)
 
-**Backend & Data**
-
-![Java](https://img.shields.io/badge/Java-8%20%7C%2017-blue?logo=openjdk)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-6DB33F?logo=springboot)
-![Maven](https://img.shields.io/badge/Maven-build-red?logo=apachemaven)
-![Gradle](https://img.shields.io/badge/Gradle-build-02303A?logo=gradle)
-![MongoDB](https://img.shields.io/badge/MongoDB-ReplicaSet-47A248?logo=mongodb)
-![MySQL](https://img.shields.io/badge/MySQL-Replication-4479A1?logo=mysql)
-
-**Frontend**
-
-![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
-![Angular](https://img.shields.io/badge/Angular-frontend-DD0031?logo=angular)
-
-**Observability**
-
-![ELK](https://img.shields.io/badge/ELK-Elasticsearch%20%2B%20Kibana-005571?logo=elasticsearch)
-
 **Languages & Scripting**
 
 ![Groovy](https://img.shields.io/badge/Groovy-DSL-4298B8?logo=apachegroovy)
