@@ -50,7 +50,7 @@
 | Step | Project | What it demonstrates |
 |---|---|---|
 | 1. Docker | [docker-node-mongodb](https://github.com/m-bengueddache/docker-node-mongodb) | Multi-container orchestration, volume-backed persistence |
-| 2. CI/CD | [aws-jenkins-cicd](https://github.com/m-bengueddache/aws-jenkins-cicd) | End-to-end Jenkins pipeline, versioning, deployment |
+| 2. CI/CD | [aws-ec2-cicd-pipeline](https://github.com/m-bengueddache/aws-ec2-cicd-pipeline) | Deployment automation evolving from manual to full Jenkins CI/CD with ECR |
 | 3. AWS | [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | IAM, OIDC/IRSA, Fargate — understanding EKS beneath eksctl |
 | 4. CI/CD → Kubernetes | [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Registry migration, EKS/LKE comparative reasoning |
 | 5. Kubernetes at scale | [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Shared Helm chart, Helmfile, production practices |
@@ -58,7 +58,7 @@
 
 ### Also public
 
-[kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) · [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) · [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) · [k8s-observability-elk-filebeat](https://github.com/m-bengueddache/k8s-observability-elk-filebeat) · [k8s-fundamentals-mongodb-mqtt](https://github.com/m-bengueddache/k8s-fundamentals-mongodb-mqtt) · [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) · [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) · [aws-cli-automation](https://github.com/m-bengueddache/aws-cli-automation) · [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) · [nexus-artifact-management](https://github.com/m-bengueddache/nexus-artifact-management)
+[kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) · [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) · [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) · [k8s-observability-elk-filebeat](https://github.com/m-bengueddache/k8s-observability-elk-filebeat) · [k8s-fundamentals-mongodb-mqtt](https://github.com/m-bengueddache/k8s-fundamentals-mongodb-mqtt) · [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) · [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) · [aws-cli-fundamentals](https://github.com/m-bengueddache/aws-cli-fundamentals) · [nexus-artifact-management](https://github.com/m-bengueddache/nexus-artifact-management)
 
 Each README follows the same structure: the problem it addresses, the solution, an architecture diagram, the skills it demonstrates, and the technical decisions behind it — along with honest limitations and a roadmap, not just a feature list.
 
