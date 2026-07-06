@@ -1,35 +1,40 @@
 # Mohamed Bengueddache
 
-**FR** — Consultant VMware en transition vers le DevOps. Fort background en virtualisation, automatisation et administration système, complété par une formation intensive aux pratiques et outils DevOps modernes.
+**FR** — Ingénieur infrastructure en transition de la virtualisation d'entreprise (VMware) vers le Cloud natif. Deux ans et demi d'expérience en production sur VMware Aria Automation (vRA/vRO) chez VMware Professional Services puis ITQ, complétés depuis quelques mois par une formation intensive DevOps/Cloud pratique.
 
-**EN** — VMware Consultant transitioning to DevOps. Strong background in virtualization, automation and system administration, complemented by intensive hands-on training in modern DevOps practices and tooling.
+**EN** — Infrastructure engineer transitioning from enterprise virtualization (VMware) to cloud-native. Two and a half years of production experience on VMware Aria Automation (vRA/vRO) at VMware Professional Services and ITQ, complemented over the past months by hands-on DevOps/Cloud training.
+
+---
+
+## The journey
+
+**FR** — Mon métier pendant deux ans et demi : automatiser le provisioning d'infrastructure à grande échelle sur VMware Aria Automation — blueprints vRA, workflows vRO, intégrations avec des systèmes tiers. C'est là que j'ai pris goût à l'automatisation d'infrastructure ; le Cloud public et Kubernetes en sont la suite logique. Je suis actuellement le DevOps Bootcamp de TechWorld with Nana, au module Terraform. Les modules Ansible et Prometheus/Grafana suivent.
+
+**EN** — My job for two and a half years: automating infrastructure provisioning at scale on VMware Aria Automation — vRA blueprints, vRO workflows, third-party integrations. That's where I developed a taste for infrastructure automation; public cloud and Kubernetes are the logical next step. I'm currently completing TechWorld with Nana's DevOps Bootcamp, at the Terraform module. Ansible and Prometheus/Grafana modules are next.
 
 ---
 
 ## Stack
 
-**Infrastructure & Virtualisation**
+**Cloud & Infrastructure as Code**
 
-![VMware](https://img.shields.io/badge/VMware-vSphere%20%7C%20vRA%20%7C%20vRO-607078?logo=vmware)
-![Linux](https://img.shields.io/badge/Linux-Debian%20%7C%20CentOS%20%7C%20Ubuntu-FCC624?logo=linux&logoColor=black)
-![Windows Server](https://img.shields.io/badge/Windows-Server-0078D6?logo=windows)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS%20%7C%20ECR%20%7C%20Lambda%20%7C%20CLI-orange?logo=amazonaws)
+![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS%20%7C%20ECR%20%7C%20Lambda-orange?logo=amazonaws)
+![Terraform](https://img.shields.io/badge/Terraform-in%20progress-844FBA?logo=terraform)
 ![Linode](https://img.shields.io/badge/Linode-Akamai%20LKE-00A95C?logo=linode)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Minikube%20%7C%20EKS%20%7C%20LKE-326CE5?logo=kubernetes)
-![Helm](https://img.shields.io/badge/Helm-3%20%7C%20Helmfile-0F1689?logo=helm)
+
+**Containers & Orchestration**
+
 ![Docker](https://img.shields.io/badge/Docker-Compose%20%7C%20Hub%20%7C%20ECR-2496ED?logo=docker)
-![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD%20%7C%20Shared%20Lib-D24939?logo=jenkins)
-![Nexus](https://img.shields.io/badge/Sonatype-Nexus-1B1C30)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS%20%7C%20LKE%20%7C%20Minikube-326CE5?logo=kubernetes)
+![Helm](https://img.shields.io/badge/Helm-3%20%7C%20Helmfile-0F1689?logo=helm)
 
-**Languages & Scripting**
+**CI/CD**
 
-![Groovy](https://img.shields.io/badge/Groovy-DSL-4298B8?logo=apachegroovy)
-![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE?logo=powershell)
+![Jenkins](https://img.shields.io/badge/Jenkins-Shared%20Libraries-D24939?logo=jenkins)
+
+**Before Cloud — 2.5 years in production**
+
+![VMware](https://img.shields.io/badge/VMware-vRA%20%7C%20vRO%20%7C%20vSphere-607078?logo=vmware)
 
 **Certifications**
 
@@ -38,49 +43,24 @@
 
 ---
 
-## Projects / Projets
+## Projects
 
-### CI/CD & Automation
+### Recommended reading order
 
-| Repo | Description |
-|---|---|
-| [aws-jenkins-cicd](https://github.com/m-bengueddache/aws-jenkins-cicd) | Full Jenkins pipeline: version increment, Maven build, Docker push, SSH deploy to EC2 |
-| [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) | Declarative Jenkins pipeline with semantic versioning — evolves to use a shared library |
-| [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) | Reusable Groovy shared library: Docker build/login/push steps with `src/` class encapsulation |
-| [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Full CI/CD pipeline to Amazon EKS — version increment, Maven build, Dockerhub then ECR registry migration, dynamic Kubernetes manifests with imagePullSecrets |
+| Step | Project | What it demonstrates |
+|---|---|---|
+| 1. Docker | [docker-node-mongodb](https://github.com/m-bengueddache/docker-node-mongodb) | Multi-container orchestration, volume-backed persistence |
+| 2. CI/CD | [aws-jenkins-cicd](https://github.com/m-bengueddache/aws-jenkins-cicd) | End-to-end Jenkins pipeline, versioning, deployment |
+| 3. AWS | [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | IAM, OIDC/IRSA, Fargate — understanding EKS beneath eksctl |
+| 4. CI/CD → Kubernetes | [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Registry migration, EKS/LKE comparative reasoning |
+| 5. Kubernetes at scale | [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Shared Helm chart, Helmfile, production practices |
+| 6. Capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
 
-### Cloud & Infrastructure (AWS)
+### Also public
 
-| Repo | Description |
-|---|---|
-| [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) | Multi-stage Docker build of a React/Node.js app deployed on AWS EC2 via SSH and Docker Compose |
-| [aws-cli-automation](https://github.com/m-bengueddache/aws-cli-automation) | EC2 provisioning and IAM management (users, groups, policies) entirely via AWS CLI |
-| [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | EKS cluster provisioning from scratch — VPC/IAM from the AWS console, Cluster Autoscaler internals (OIDC/IRSA), Fargate profile fundamentals, and the eksctl one-command alternative |
+[kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) · [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) · [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) · [k8s-observability-elk-filebeat](https://github.com/m-bengueddache/k8s-observability-elk-filebeat) · [k8s-fundamentals-mongodb-mqtt](https://github.com/m-bengueddache/k8s-fundamentals-mongodb-mqtt) · [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) · [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) · [aws-cli-automation](https://github.com/m-bengueddache/aws-cli-automation) · [aws-ec2-docker-deployment](https://github.com/m-bengueddache/aws-ec2-docker-deployment) · [nexus-artifact-management](https://github.com/m-bengueddache/nexus-artifact-management)
 
-### Containerisation
-
-| Repo | Description |
-|---|---|
-| [docker-node-mongodb](https://github.com/m-bengueddache/docker-node-mongodb) | Node.js app + MongoDB + Mongo Express orchestrated with Docker Compose and named volumes |
-
-### Kubernetes
-
-| Repo | Description |
-|---|---|
-| [kubernetes-cluster-setup](https://github.com/m-bengueddache/kubernetes-cluster-setup) | MongoDB (ConfigMap/Secret) and Mosquitto MQTT broker with config files mounted as volumes |
-| [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) | Node.js app deployed on Kubernetes (Minikube) from a private AWS ECR registry — Docker auth, imagePullSecrets, and namespace-scoped Secrets |
-| [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) | MongoDB ReplicaSet on Linode Kubernetes Engine (LKE) with Helm, persistent block storage, Mongo Express UI, and Nginx Ingress Controller |
-| [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Online Boutique: 11 microservices on LKE — raw manifests, production best practices (probes, resource limits), shared Helm chart, and Helmfile deployment |
-| [kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) | Spring Boot + MySQL replication on LKE — raw manifests, Bitnami Helm, Helm chart written from scratch, and Helmfile multi-release deployment |
-| [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Spring Boot + MySQL replication on EKS — hybrid compute (Fargate for the app, managed nodegroup for stateful services), EBS CSI persistent storage, Cluster Autoscaler via IRSA, Jenkins CI/CD to ECR |
-| [k8s-lambda-fullstack-elk](https://github.com/m-bengueddache/k8s-lambda-fullstack-elk) | AWS Lambda (Python), Spring Boot + Angular deployed on Kubernetes, Jenkins CI/CD pipeline, and ELK stack with Filebeat DaemonSet for log centralisation |
-
-### Artifact Management (Nexus)
-
-| Repo | Description |
-|---|---|
-| [nexus-gradle-artifact-repo](https://github.com/m-bengueddache/nexus-gradle-artifact-repo) | Spring Boot JAR published to a private Sonatype Nexus repo via Gradle `maven-publish` |
-| [nexus-maven-artifact-repo](https://github.com/m-bengueddache/nexus-maven-artifact-repo) | Spring Boot JAR published to a private Sonatype Nexus repo via Maven `deploy` |
+Each README follows the same structure: the problem it addresses, the solution, an architecture diagram, the skills it demonstrates, and the technical decisions behind it — along with honest limitations and a roadmap, not just a feature list.
 
 ---
 
