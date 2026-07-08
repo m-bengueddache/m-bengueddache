@@ -19,7 +19,7 @@
 **Cloud & Infrastructure as Code**
 
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS%20%7C%20ECR%20%7C%20Lambda-orange?logo=amazonaws)
-![Terraform](https://img.shields.io/badge/Terraform-in%20progress-844FBA?logo=terraform)
+![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC-844FBA?logo=terraform)
 ![Linode](https://img.shields.io/badge/Linode-Akamai%20LKE-00A95C?logo=linode)
 
 **Containers & Orchestration**
