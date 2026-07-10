@@ -54,7 +54,7 @@
 | 3. AWS | [eks-cluster-setup-aws](https://github.com/m-bengueddache/eks-cluster-setup-aws) | IAM, OIDC/IRSA, Fargate — understanding EKS beneath eksctl |
 | 4. CI/CD → Kubernetes | [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Registry migration, EKS/LKE comparative reasoning |
 | 5. Kubernetes at scale | [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Shared Helm chart, Helmfile, production practices |
-| 6. Capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
+| 6. Kubernetes capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
 | 7. Infrastructure as Code | [terraform-aws-ec2](https://github.com/m-bengueddache/terraform-aws-ec2) | Custom VPC/subnet from scratch, reusable Terraform modules, dynamic AMI resolution |
 | 8. IaC for Kubernetes | [terraform-aws-eks](https://github.com/m-bengueddache/terraform-aws-eks) | EKS-ready VPC + managed node group in Terraform — the state-managed alternative to the manual/eksctl build in steps 3-4 |
 
