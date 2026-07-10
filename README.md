@@ -19,7 +19,7 @@
 **Cloud & Infrastructure as Code**
 
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS%20%7C%20ECR%20%7C%20Lambda-orange?logo=amazonaws)
-![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC-844FBA?logo=terraform)
+![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC%20%7C%20EKS-844FBA?logo=terraform)
 ![Linode](https://img.shields.io/badge/Linode-Akamai%20LKE-00A95C?logo=linode)
 
 **Containers & Orchestration**
@@ -55,10 +55,12 @@
 | 4. CI/CD → Kubernetes | [jenkins-eks-cicd](https://github.com/m-bengueddache/jenkins-eks-cicd) | Registry migration, EKS/LKE comparative reasoning |
 | 5. Kubernetes at scale | [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Shared Helm chart, Helmfile, production practices |
 | 6. Capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
+| 7. Infrastructure as Code | [terraform-aws-ec2](https://github.com/m-bengueddache/terraform-aws-ec2) | Custom VPC/subnet from scratch, reusable Terraform modules, dynamic AMI resolution |
+| 8. IaC for Kubernetes | [terraform-aws-eks](https://github.com/m-bengueddache/terraform-aws-eks) | EKS-ready VPC + managed node group in Terraform — the state-managed alternative to the manual/eksctl build in steps 3-4 |
 
 ### Also public
 
-[kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) · [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) · [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) · [k8s-observability-elk-filebeat](https://github.com/m-bengueddache/k8s-observability-elk-filebeat) · [k8s-fundamentals-mongodb-mqtt](https://github.com/m-bengueddache/k8s-fundamentals-mongodb-mqtt) · [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) · [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) · [aws-cli-fundamentals](https://github.com/m-bengueddache/aws-cli-fundamentals) · [nexus-artifact-management](https://github.com/m-bengueddache/nexus-artifact-management) · [terraform-aws-ec2](https://github.com/m-bengueddache/terraform-aws-ec2)
+[kubernetes-lke-springboot](https://github.com/m-bengueddache/kubernetes-lke-springboot) · [helm-lke-mongodb](https://github.com/m-bengueddache/helm-lke-mongodb) · [k8s-ecr-private-registry](https://github.com/m-bengueddache/k8s-ecr-private-registry) · [k8s-observability-elk-filebeat](https://github.com/m-bengueddache/k8s-observability-elk-filebeat) · [k8s-fundamentals-mongodb-mqtt](https://github.com/m-bengueddache/k8s-fundamentals-mongodb-mqtt) · [jenkins-cicd-pipeline](https://github.com/m-bengueddache/jenkins-cicd-pipeline) · [jenkins-groovy-shared-library](https://github.com/m-bengueddache/jenkins-groovy-shared-library) · [aws-cli-fundamentals](https://github.com/m-bengueddache/aws-cli-fundamentals) · [nexus-artifact-management](https://github.com/m-bengueddache/nexus-artifact-management)
 
 Each README follows the same structure: the problem it addresses, the solution, an architecture diagram, the skills it demonstrates, and the technical decisions behind it — along with honest limitations and a roadmap, not just a feature list.
 
