@@ -8,9 +8,9 @@
 
 ## The journey
 
-**FR** — Mon métier pendant deux ans et demi : automatiser le provisioning d'infrastructure à grande échelle sur VMware Aria Automation — blueprints vRA, workflows vRO, intégrations avec des systèmes tiers. C'est là que j'ai pris goût à l'automatisation d'infrastructure ; le Cloud public et Kubernetes en sont la suite logique. Je suis actuellement le DevOps Bootcamp de TechWorld with Nana, au module Terraform. Les modules Ansible et Prometheus/Grafana suivent.
+**FR** — Mon métier pendant deux ans et demi : automatiser le provisioning d'infrastructure à grande échelle sur VMware Aria Automation — blueprints vRA, workflows vRO, intégrations avec des systèmes tiers. C'est là que j'ai pris goût à l'automatisation d'infrastructure ; le Cloud public et Kubernetes en sont la suite logique. Je suis le DevOps Bootcamp de TechWorld with Nana ; je viens de terminer le module Terraform, place au module Ansible (Prometheus/Grafana suivra).
 
-**EN** — My job for two and a half years: automating infrastructure provisioning at scale on VMware Aria Automation — vRA blueprints, vRO workflows, third-party integrations. That's where I developed a taste for infrastructure automation; public cloud and Kubernetes are the logical next step. I'm currently completing TechWorld with Nana's DevOps Bootcamp, at the Terraform module. Ansible and Prometheus/Grafana modules are next.
+**EN** — My job for two and a half years: automating infrastructure provisioning at scale on VMware Aria Automation — vRA blueprints, vRO workflows, third-party integrations. That's where I developed a taste for infrastructure automation; public cloud and Kubernetes are the logical next step. I'm completing TechWorld with Nana's DevOps Bootcamp; I've just finished the Terraform module, with Ansible next (Prometheus/Grafana after that).
 
 ---
 
@@ -19,7 +19,7 @@
 **Cloud & Infrastructure as Code**
 
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS%20%7C%20ECR%20%7C%20Lambda-orange?logo=amazonaws)
-![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC%20%7C%20EKS-844FBA?logo=terraform)
+![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC%20%7C%20EKS%20%7C%20CI%2FCD-844FBA?logo=terraform)
 ![Linode](https://img.shields.io/badge/Linode-Akamai%20LKE-00A95C?logo=linode)
 
 **Containers & Orchestration**
@@ -57,6 +57,7 @@
 | 6. Kubernetes capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
 | 7. Infrastructure as Code | [terraform-aws-ec2](https://github.com/m-bengueddache/terraform-aws-ec2) | Custom VPC/subnet from scratch, reusable Terraform modules, dynamic AMI resolution |
 | 8. IaC for Kubernetes | [terraform-aws-eks](https://github.com/m-bengueddache/terraform-aws-eks) | EKS-ready VPC + managed node group in Terraform — the state-managed alternative to the manual/eksctl build in steps 3-4 |
+| 9. Capstone — IaC in CI/CD | [terraform-jenkins-cicd](https://github.com/m-bengueddache/terraform-jenkins-cicd) | Terraform provisioning as a pipeline stage, remote S3 state — closes the loop between the CI/CD track (steps 2, 4) and the IaC track (steps 7-8) |
 
 ### Also public
 
