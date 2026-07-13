@@ -19,7 +19,7 @@
 **Cloud & Infrastructure as Code**
 
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20EKS%20%7C%20ECR%20%7C%20Lambda-orange?logo=amazonaws)
-![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC%20%7C%20EKS%20%7C%20CI%2FCD-844FBA?logo=terraform)
+![Terraform](https://img.shields.io/badge/Terraform-EC2%20%7C%20VPC%20%7C%20EKS%20%7C%20Helm%20%7C%20CI%2FCD-844FBA?logo=terraform)
 ![Linode](https://img.shields.io/badge/Linode-Akamai%20LKE-00A95C?logo=linode)
 
 **Containers & Orchestration**
@@ -57,7 +57,8 @@
 | 6. Kubernetes capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
 | 7. Infrastructure as Code | [terraform-aws-ec2](https://github.com/m-bengueddache/terraform-aws-ec2) | Custom VPC/subnet from scratch, reusable Terraform modules, dynamic AMI resolution |
 | 8. IaC for Kubernetes | [terraform-aws-eks](https://github.com/m-bengueddache/terraform-aws-eks) | EKS-ready VPC + managed node group in Terraform — the state-managed alternative to the manual/eksctl build in steps 3-4 |
-| 9. Capstone — IaC in CI/CD | [terraform-jenkins-cicd](https://github.com/m-bengueddache/terraform-jenkins-cicd) | Terraform provisioning as a pipeline stage, remote S3 state — closes the loop between the CI/CD track (steps 2, 4) and the IaC track (steps 7-8) |
+| 9. IaC multi-environment | [terraform-eks-multi-env](https://github.com/m-bengueddache/terraform-eks-multi-env) | Step 8's cluster turned into a shared module driving isolated dev/test/staging state, provisioned by its own Jenkins pipeline, validated with a stateful MySQL/EBS CSI/Pod Identity workload |
+| 10. Capstone — IaC in CI/CD | [terraform-jenkins-cicd](https://github.com/m-bengueddache/terraform-jenkins-cicd) | Terraform provisioning as a pipeline stage, remote S3 state — closes the loop between the CI/CD track (steps 2, 4) and the IaC track (steps 7-8) |
 
 ### Also public
 
