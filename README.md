@@ -56,9 +56,9 @@
 | 5. Kubernetes at scale | [k8s-microservices-helm](https://github.com/m-bengueddache/k8s-microservices-helm) | Shared Helm chart, Helmfile, production practices |
 | 6. Kubernetes capstone | [eks-fargate-nodegroup-cicd](https://github.com/m-bengueddache/eks-fargate-nodegroup-cicd) | Hybrid compute, stateful Helm, autoscaling, CI/CD — bringing it together |
 | 7. Infrastructure as Code | [terraform-aws-ec2](https://github.com/m-bengueddache/terraform-aws-ec2) | Custom VPC/subnet from scratch, reusable Terraform modules, dynamic AMI resolution |
-| 8. IaC for Kubernetes | [terraform-aws-eks](https://github.com/m-bengueddache/terraform-aws-eks) | EKS-ready VPC + managed node group in Terraform — the state-managed alternative to the manual/eksctl build in steps 3-4 |
-| 9. IaC multi-environment | [terraform-eks-multi-env](https://github.com/m-bengueddache/terraform-eks-multi-env) | Step 8's cluster turned into a shared module driving isolated dev/test/staging state, provisioned by its own Jenkins pipeline, validated with a stateful MySQL/EBS CSI/Pod Identity workload |
-| 10. Capstone — IaC in CI/CD | [terraform-jenkins-cicd](https://github.com/m-bengueddache/terraform-jenkins-cicd) | Terraform provisioning as a pipeline stage, remote S3 state — closes the loop between the CI/CD track (steps 2, 4) and the IaC track (steps 7-8) |
+| 8. IaC in CI/CD | [terraform-jenkins-cicd](https://github.com/m-bengueddache/terraform-jenkins-cicd) | Step 7's infrastructure folded into the pipeline itself, remote S3 state — closes the loop between the CI/CD track (steps 2, 4) and this same EC2 infrastructure |
+| 9. IaC for Kubernetes | [terraform-aws-eks](https://github.com/m-bengueddache/terraform-aws-eks) | EKS-ready VPC + managed node group in Terraform — the state-managed alternative to the manual/eksctl build in steps 3-4 |
+| 10. Capstone — IaC multi-environment | [terraform-eks-multi-env](https://github.com/m-bengueddache/terraform-eks-multi-env) | Step 9's cluster turned into a shared module driving isolated dev/test/staging state, provisioned by its own Jenkins pipeline, validated with a stateful MySQL/EBS CSI/Pod Identity workload |
 
 ### Also public
 
